@@ -1,7 +1,7 @@
 {
   "name": "eco-chess",
   "version": "1.0.0",
-  "description": "CLI tool for learning chess eco openings based on ECO classification",
+  "description": "CLI tool for learning chess openings based on ECO classification",
   "main": "index.js",
   "bin": {
     "eco": "./index.js"
@@ -14,6 +14,10 @@
     "chess",
     "openings"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arcanous/eco-chess.git"
+  },
   "author": "Harijs Deksnis",
   "license": "MIT",
   "dependencies": {
